@@ -1,0 +1,2573 @@
+2020-12-27 00:25:39 Error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIconPrecomposed.png could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'AppleTouchIconPrecomposed.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /apple-touch-icon-precomposed.png
+Client IP: 192.168.33.1
+
+
+2020-12-27 00:25:39 Error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIcon.png could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'AppleTouchIcon.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /apple-touch-icon.png
+Client IP: 192.168.33.1
+
+
+2020-12-28 04:43:53 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Router.php:227
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+- /var/www/myCakeApp/index.php:16
+
+Request URL: /
+Client IP: 192.168.33.1
+
+
+2020-12-28 04:45:44 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php line=176 in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:45:44 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:45:44 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:45:44 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:45:51 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php line=176 in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:45:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:45:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:45:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:52:31 Error: [TypeError] Return value of App\Controller\PagesController::display() must be an instance of Cake\Http\Response or null, string returned in /var/www/myCakeApp/src/Controller/PagesController.php on line 48
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+- /var/www/myCakeApp/index.php:16
+
+Request URL: /
+Client IP: 192.168.33.1
+
+
+2020-12-28 04:53:21 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php line=176 in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:53:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:53:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:53:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:54:17 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php line=176 in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:54:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:54:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 04:54:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2020-12-28 08:39:19 Error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIcon.png could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'AppleTouchIcon.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /apple-touch-icon.png
+Client IP: 192.168.33.1
+
+
+2020-12-28 08:39:19 Error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIconPrecomposed.png could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'AppleTouchIconPrecomposed.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /apple-touch-icon-precomposed.png
+Client IP: 192.168.33.1
+
+
+2020-12-28 08:41:59 Error: [Cake\View\Exception\MissingTemplateException] Template file `Hello/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/myCakeApp/templates/Hello/index.php`
+- `/var/www/myCakeApp/vendor/cakephp/cakephp/templates/Hello/index.php`
+ in Hello/index.php on line 1354
+Exception Attributes: array (
+  'file' => 'Hello/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/myCakeApp/templates/',
+    1 => '/var/www/myCakeApp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/View/View.php:761
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello
+Client IP: 192.168.33.1
+
+
+2020-12-28 09:33:06 Error: [Cake\Http\Exception\MissingControllerException] Controller class Robots.txt could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /robots.txt
+Client IP: 192.168.33.1
+
+
+2020-12-28 09:33:07 Error: [Cake\Http\Exception\MissingControllerException] Controller class Robots.txt could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /robots.txt
+Client IP: 192.168.33.1
+
+
+2020-12-28 09:34:33 Error: [Error] Cannot access protected property Cake\Http\ServerRequest::$query in /var/www/myCakeApp/src/Controller/HelloController.php on line 9
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+
+
+2020-12-28 09:38:23 Error: [Error] Cannot access protected property Cake\Http\ServerRequest::$query in /var/www/myCakeApp/src/Controller/HelloController.php on line 11
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+
+
+2020-12-28 09:40:21 Error: [Error] Cannot access protected property Cake\Http\ServerRequest::$query in /Users/mizunotoshiki/cake/cakeProject/src/Controller/HelloController.php on line 11
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/mizunotoshiki/cake/cakeProject/webroot/index.php:40
+
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+
+
+2020-12-28 09:42:51 Error: [Error] Cannot access protected property Cake\Http\ServerRequest::$query in /Users/mizunotoshiki/cake/cakeProject/src/Controller/HelloController.php on line 12
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/mizunotoshiki/cake/cakeProject/webroot/index.php:40
+
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+
+
+2020-12-28 09:44:53 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Debugger.php line=970 in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:44:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:44:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:44:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:44:58 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Debugger.php line=970 in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:44:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:44:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:44:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:45:30 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Debugger.php line=970 in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:45:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:45:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:45:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:44:22 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Debugger.php line=970 in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:44:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:44:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:44:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 09:47:50 Error: [BadMethodCallException] Method "query()" does not exist in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ServerRequest.php on line 468
+Stack Trace:
+- /var/www/myCakeApp/src/Controller/HelloController.php:14
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+
+
+2020-12-28 10:06:03 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Debugger.php line=970 in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:06:03 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:06:03 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:06:03 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:06:34 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php line=176 in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:06:34 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:06:34 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:06:34 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:06:53 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php line=176 in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:06:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:06:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:06:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:07:14 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php line=176 in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:07:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:07:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-28 10:07:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-29 03:23:43 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php line=176 in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-29 03:23:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-29 03:23:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-29 03:23:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/myCakeApp/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-29 03:24:39 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/mizunotoshiki/cake/cakeProject/vendor/symfony/var-dumper/Dumper/AbstractDumper.php line=176 in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-29 03:24:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/mizunotoshiki/cake/cakeProject/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-29 03:24:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/mizunotoshiki/cake/cakeProject/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-29 03:24:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/mizunotoshiki/cake/cakeProject/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:176) in [/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2020-12-29 04:56:28 Error: [Cake\View\Exception\MissingTemplateException] Template file `Hello/index.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/mizunotoshiki/cake/cakeProject/templates/Hello/index.php`
+- `/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/templates/Hello/index.php`
+ in Hello/index.php on line 1354
+Exception Attributes: array (
+  'file' => 'Hello/index.php',
+  'paths' => 
+  array (
+    0 => '/Users/mizunotoshiki/cake/cakeProject/templates/',
+    1 => '/Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/View/View.php:761
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/mizunotoshiki/cake/cakeProject/webroot/index.php:40
+
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+
+
+2020-12-29 05:17:14 Error: [Cake\Controller\Exception\MissingActionException] Action HelloController::index() could not be found, or is not accessible. in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'HelloController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:100
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/mizunotoshiki/cake/cakeProject/webroot/index.php:40
+
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+
+
+2020-12-29 05:53:12 Error: [Error] Call to undefined method Cake\View\ViewBuilder::autoRender() in /Users/mizunotoshiki/cake/cakeProject/src/Controller/HelloController.php on line 12
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/mizunotoshiki/cake/cakeProject/webroot/index.php:40
+
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+
+
+2020-12-29 05:54:24 Error: [Error] Call to undefined method Cake\View\ViewBuilder::autoLayout() in /Users/mizunotoshiki/cake/cakeProject/src/Controller/HelloController.php on line 12
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/mizunotoshiki/cake/cakeProject/webroot/index.php:40
+
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+
+
+2020-12-29 05:54:26 Error: [Error] Call to undefined method Cake\View\ViewBuilder::autoLayout() in /Users/mizunotoshiki/cake/cakeProject/src/Controller/HelloController.php on line 12
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/mizunotoshiki/cake/cakeProject/webroot/index.php:40
+
+Request URL: /hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+
+
+2020-12-29 06:36:27 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/mizunotoshiki/cake/cakeProject/webroot/index.php:40
+
+Request URL: /templates/Hello/form
+Referer URL: http://localhost:8765/hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+
+
+2020-12-29 06:39:31 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /templates/Hello/form
+Referer URL: http://192.168.33.10/hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:40:14 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /templates/Hello/form
+Referer URL: http://192.168.33.10/hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:40:55 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /Hello/form
+Referer URL: http://192.168.33.10/hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:42:11 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /Hello/form
+Referer URL: http://192.168.33.10/hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:42:17 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /Hello/form
+Referer URL: http://192.168.33.10/hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:42:27 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello/form
+Referer URL: http://192.168.33.10/hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:42:40 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello/form
+Referer URL: http://192.168.33.10/hello?id=100&pass=toshiki
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:42:47 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:46:18 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/mizunotoshiki/cake/cakeProject/webroot/index.php:40
+
+Request URL: /templates/Hello/form
+Referer URL: http://localhost:8765/hello?id=100&pass=toshiki
+Client IP: 127.0.0.1
+
+
+2020-12-29 06:46:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Templates could not be found. in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Templates',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/mizunotoshiki/cake/cakeProject/webroot/index.php:40
+
+Request URL: /templates/Hello
+Client IP: 127.0.0.1
+
+
+2020-12-29 06:47:04 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /templates/Hello/form
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:47:31 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /templates/hello/form
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:47:49 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /form
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:50:25 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /form
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:51:01 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /form
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-29 06:51:17 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello/form
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-29 07:08:47 Error: [BadMethodCallException] Method "data()" does not exist in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/ServerRequest.php on line 468
+Stack Trace:
+- /var/www/myCakeApp/src/Controller/HelloController.php:35
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello/form
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-29 07:09:08 Error: [Error] Cannot access protected property Cake\Http\ServerRequest::$data in /var/www/myCakeApp/src/Controller/HelloController.php on line 35
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello/form
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-30 08:36:15 Error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIconPrecomposed.png could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'AppleTouchIconPrecomposed.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /apple-touch-icon-precomposed.png
+Client IP: 192.168.33.1
+
+
+2020-12-30 08:36:15 Error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIcon.png could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'AppleTouchIcon.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /apple-touch-icon.png
+Client IP: 192.168.33.1
+
+
+2020-12-30 08:49:50 Error: [Cake\Http\Exception\MissingControllerException] Controller class Robots.txt could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /robots.txt
+Client IP: 192.168.33.1
+
+
+2020-12-30 09:10:31 Error: [Cake\View\Exception\MissingTemplateException] Template file `Hello/save.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/myCakeApp/templates/Hello/save.php`
+- `/var/www/myCakeApp/vendor/cakephp/cakephp/templates/Hello/save.php`
+ in Hello/save.php on line 1354
+Exception Attributes: array (
+  'file' => 'Hello/save.php',
+  'paths' => 
+  array (
+    0 => '/var/www/myCakeApp/templates/',
+    1 => '/var/www/myCakeApp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/View/View.php:761
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello/save
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-30 09:11:03 Error: [Cake\View\Exception\MissingTemplateException] Template file `Hello/save.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/myCakeApp/templates/Hello/save.php`
+- `/var/www/myCakeApp/vendor/cakephp/cakephp/templates/Hello/save.php`
+ in Hello/save.php on line 1354
+Exception Attributes: array (
+  'file' => 'Hello/save.php',
+  'paths' => 
+  array (
+    0 => '/var/www/myCakeApp/templates/',
+    1 => '/var/www/myCakeApp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/View/View.php:761
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:699
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:540
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello/save
+Referer URL: http://192.168.33.10/hello/
+Client IP: 192.168.33.1
+
+
+2020-12-30 09:37:06 Error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIconPrecomposed.png could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'AppleTouchIconPrecomposed.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /apple-touch-icon-precomposed.png
+Client IP: 192.168.33.1
+
+
+2020-12-30 09:37:06 Error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIcon.png could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'AppleTouchIcon.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /apple-touch-icon.png
+Client IP: 192.168.33.1
+
+
+2020-12-30 09:40:50 Error: [Cake\Http\Exception\MissingControllerException] Controller class Robots.txt could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /robots.txt
+Client IP: 192.168.33.1
+
+
+2020-12-30 09:40:50 Error: [Cake\Http\Exception\MissingControllerException] Controller class Robots.txt could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Robots.txt',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /robots.txt
+Client IP: 192.168.33.1
+
+
+2020-12-30 09:45:52 Error: [Error] Cannot access protected property Cake\Http\ServerRequest::$data in /var/www/myCakeApp/src/Controller/HelloController.php on line 31
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello
+Referer URL: http://192.168.33.10/hello/
+Client IP: 192.168.33.1
+
+
+2020-12-30 11:18:11 Error: [Error] Cannot access protected property Cake\Http\ServerRequest::$data in /var/www/myCakeApp/src/Controller/HelloController.php on line 31
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello
+Referer URL: http://192.168.33.10/hello/
+Client IP: 192.168.33.1
+
+
+2020-12-30 11:18:31 Error: [Error] Cannot access protected property Cake\Http\ServerRequest::$data in /var/www/myCakeApp/src/Controller/HelloController.php on line 31
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-30 11:19:24 Error: [Error] Cannot access protected property Cake\Http\ServerRequest::$data in /var/www/myCakeApp/src/Controller/HelloController.php on line 31
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-30 11:19:37 Error: [Error] Cannot access protected property Cake\Http\ServerRequest::$data in /var/www/myCakeApp/src/Controller/HelloController.php on line 31
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/Controller.php:531
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /hello
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2020-12-31 08:54:54 Error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIconPrecomposed.png could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'AppleTouchIconPrecomposed.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /apple-touch-icon-precomposed.png
+Client IP: 192.168.33.1
+
+
+2020-12-31 08:54:54 Error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIcon.png could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'AppleTouchIcon.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:208
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:63
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /apple-touch-icon.png
+Client IP: 192.168.33.1
+
+
+2021-01-01 04:56:36 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /css/forms.css
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2021-01-01 04:56:41 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /css/forms.css
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2021-01-01 04:56:44 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /css/forms.css
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2021-01-01 04:57:18 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /css/forms.css
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2021-01-01 04:57:18 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /css/forms.css
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2021-01-01 04:57:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /css/forms.css
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2021-01-01 04:57:24 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /css/forms.css
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2021-01-01 05:02:14 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /css/forms.css
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2021-01-01 05:08:04 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /js/scripts.js
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2021-01-01 05:08:04 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /css/forms.css
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2021-01-01 05:08:04 Error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /js/scripts.js
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+
+2021-01-01 06:32:13 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:65
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:311
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myCakeApp/webroot/index.php:40
+
+Request URL: /css/forms.css
+Referer URL: http://192.168.33.10/hello
+Client IP: 192.168.33.1
+
+

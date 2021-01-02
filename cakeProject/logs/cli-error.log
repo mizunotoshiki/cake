@@ -1,0 +1,385 @@
+2021-01-01 23:36:03 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php on line 132
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php:132
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php:138
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+
+
+2021-01-01 23:41:51 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php on line 132
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php:132
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php:138
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+
+
+2021-01-01 23:43:47 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php on line 132
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php:132
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php:138
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+
+
+2021-01-01 23:44:01 Error: [Cake\Database\Exception\MissingDriverException] Database driver  could not be found. in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php on line 197
+Exception Attributes: array (
+  'driver' => '',
+)
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:142
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:90
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:110
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:212
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:172
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:97
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+
+
+2021-01-01 23:44:33 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php on line 132
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php:132
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php:138
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+
+
+2021-01-01 23:55:55 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php on line 132
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php:132
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php:138
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+
+
+2021-01-02 00:34:54 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php on line 132
+Stack Trace:
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php:132
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver.php:138
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /Users/mizunotoshiki/cake/cakeProject/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/mizunotoshiki/cake/cakeProject/bin/cake.php:12
+
+
+
+2021-01-02 00:57:55 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /var/www/myCakeApp/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Driver.php on line 132
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Driver.php:132
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Driver.php:138
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:178
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:47
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:230
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Connection.php:399
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /var/www/myCakeApp/bin/cake.php:12
+
+
+
+2021-01-02 01:01:55 Error: [RuntimeException] Your database does not have any tables. in /var/www/myCakeApp/vendor/cakephp/bake/src/Utility/TableScanner.php on line 68
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:1060
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:191
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /var/www/myCakeApp/bin/cake.php:12
+
+
+
+2021-01-02 01:09:21 Error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake_db.people' doesn't exist in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/ORM/Table.php:513
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/ORM/Table.php:653
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:199
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /var/www/myCakeApp/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake_db.people' doesn't exist in /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Connection.php:310
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Connection.php:313
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/ORM/Table.php:513
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/ORM/Table.php:653
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:199
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/myCakeApp/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/myCakeApp/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /var/www/myCakeApp/bin/cake.php:12
+
+
+
